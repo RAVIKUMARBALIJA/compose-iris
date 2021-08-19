@@ -21,7 +21,7 @@ def train_model(data):
 
     # pull out the relevant X and y from the FeedbackIn object
     X = [list(d.dict().values())[:-1] for d in data]
-    y = [r_classes[d.flower_class] for d in data]
+    y = [r_classes[d.penguin_class] for d in data]
 
     # fit the classifier again based on the new data obtained
     clf.fit(X, y)
