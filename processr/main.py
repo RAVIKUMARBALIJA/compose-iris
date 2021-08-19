@@ -12,12 +12,13 @@ TRAINR_ENDPOINT = os.getenv("TRAINR_ENDPOINT")
 app = FastAPI(title="processr", docs_url="/")
 
 # class which is expected in the payload while training
+#culmen_length_mm', 'culmen_depth_mm', 'flipper_length_mm', 'body_mass_g'
 class DataIn(BaseModel):
-    sepal_length: float
-    sepal_width: float
-    petal_length: float
-    petal_width: float
-    flower_class: str
+    culmen_length_mm: float
+    culmen_depth_mm: float
+    flipper_length_mm: float
+    body_mass_g: float
+    penguin_class: str
 
 
 # Route definitions

@@ -15,6 +15,7 @@ https://github.com/PGCSEDS-IIITH/compose-iris contains code which demonstrates d
 
 ## Assignment Task
 Implement this stack for some dataset of your choice
+-- implemented using penguin dataset [!kaggle datasets download -d parulpandey/palmer-archipelago-antarctica-penguin-data]
 
 ## Submission
 Submit a link to your forked repository
